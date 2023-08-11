@@ -4,7 +4,6 @@
 
 #define MAX_STRING_LEN 100
 
-// Function to simulate the NFA
 int simulateNFA(char* input) {
     int state = 0;
     int len = strlen(input);
